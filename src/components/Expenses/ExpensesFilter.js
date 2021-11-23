@@ -5,7 +5,7 @@ import './ExpensesFilter.css';
 const ExpensesFilter = (props) => {
   const selectChangeHandler = (event) => {
     const year = event.target.value;
-    props.onSelectYear(year)
+    props.onSelectYear(year);
   };
 
   return (
